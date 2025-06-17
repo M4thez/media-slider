@@ -13,6 +13,7 @@ import {
   faCaretLeft,
 } from "@fortawesome/free-solid-svg-icons";
 import ErrorPage from "@/app/_general/errorPage";
+import GithubPagesData from "@/app/api/slides/GithubPagesData.json";
 
 export default function SliderPage() {
   const [slidesData, setSlidesData] = useState<ISlide[]>([]);
@@ -33,11 +34,17 @@ export default function SliderPage() {
         setLoadingState("complete");
       })
       .catch((error) => {
-        setLoadingState("error");
-        console.error(
-          "There was an error during slides fetch operation",
-          error
-        );
+        try {
+          // GitHub Pages can't serve data via next.js API so that's the workaround
+          setSlidesData(GithubPagesData);
+          setLoadingState("complete");
+        } catch {
+          setLoadingState("error");
+          console.error(
+            "There was an error during slides fetch operation",
+            error
+          );
+        }
       });
   }, []);
 

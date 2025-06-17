@@ -2,13 +2,13 @@
 
 Author: Mateusz Boboryko
 
-Media slider with screenshots made by me in my favorite video games.
+Media slider with screenshots made by me from some of my favorite video games.
 
 A [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). Next.js is a React framework for building full-stack web applications. Under the hood, Next.js abstracts and automatically configures tooling needed for React, like bundling, compiling, and more. This allowed me to focus on building my application instead of spending time with configuration.
 
 Main frontend code is located in /src/app/(slider)
 
-Backend part in the form of a simple API endpoint is located in /src/app/api/slides
+The original code included backend part in the form of a simple API endpoint (located in /src/app/api/slides), but GitHub Pages can't serve data via next.js API so a workaround needed to be implemented.
 
 ## How to run
 
