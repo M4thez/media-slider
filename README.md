@@ -8,9 +8,13 @@ A [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](h
 
 Main frontend code is located in /src/app/(slider)
 
-The original code included backend part in the form of a simple API endpoint (located in /src/app/api/slides), but GitHub Pages can't serve data via next.js API so a workaround needed to be implemented.
+The original code included a backend part in the form of a simple API endpoint (located in /src/app/api/slides), but GitHub Pages can't serve data via next.js API so a workaround needed to be implemented.
 
-## How to run
+## How to run (clarification)
+
+The code had to be changed to be able to host the website on GitHub Pages so running the code locally requires some fixes with separating production and development setups. My focus though was to just host the live website on GitHub Pages and leave the rest as-is.
+
+## How to run (before GitHub Pages setup)
 
 Preferably be on the Node.js v18.17 or later.
 Make sure you are in the root directory of the project.
@@ -21,7 +25,7 @@ Single command to install node packages and run the application:
 npm run allWithInstall
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000/media-slider) with your browser to see the result.
 
 ### Individual commands
 
