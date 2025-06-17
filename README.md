@@ -2,7 +2,7 @@
 
 Author: Mateusz Boboryko
 
-React frontend intern task for Opera.
+Media slider with screenshots made by me in my favorite video games.
 
 A [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). Next.js is a React framework for building full-stack web applications. Under the hood, Next.js abstracts and automatically configures tooling needed for React, like bundling, compiling, and more. This allowed me to focus on building my application instead of spending time with configuration.
 
@@ -56,6 +56,3 @@ Audio:
 - https://www.free-stock-music.com/alexander-nakarada-suspensify.html
 
 - https://www.free-stock-music.com/alexander-nakarada-main-theme-overture-the-grand-score.html
-
-Images:
-In-game screenshots made by me.
