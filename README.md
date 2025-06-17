@@ -14,6 +14,8 @@ The original code included a backend part in the form of a simple API endpoint (
 
 The code had to be changed to be able to host the website on GitHub Pages so running the code locally requires some fixes with separating production and development setups. My focus though was to just host the live website on GitHub Pages and leave the rest as-is.
 
+The code that correctly runs locally and uses API made in Next.js is available on the branch "before-gh-pages" and can be fully run using instructions provided below.
+
 ## How to run (before GitHub Pages setup)
 
 Preferably be on the Node.js v18.17 or later.
